@@ -74,7 +74,7 @@ public class Login_S extends JFrame {
 		frame.getContentPane().add(lblLogin);
 
 		txtUser = new JTextField();
-		txtUser.setBounds(166, 91, 114, 19);
+		txtUser.setBounds(166, 90, 114, 19);
 		frame.getContentPane().add(txtUser);
 		txtUser.setColumns(10);
 
