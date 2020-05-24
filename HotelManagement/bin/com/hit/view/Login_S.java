@@ -87,7 +87,7 @@ public class Login_S extends JFrame {
 			@SuppressWarnings("deprecation")
 			public void actionPerformed(ActionEvent arg0) {
 				SignUpController signup = new SignUpController(txtUser.getText(), txtPassword.getText(),
-						"com.mysql.jdbc.Driver", "jdbc:mysql://localhost/HotelManagement",
+						"com.mysql.jdbc.Driver", "jdbc:mysql://localhost/hotelmanagment",
 						"SELECT username,password FROM users WHERE username = ? AND password=?");
 				if (signup.isUserExists() == true) {
 					JOptionPane.showMessageDialog(frame, "Successfully loged in");
